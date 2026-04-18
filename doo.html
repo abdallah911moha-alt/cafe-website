@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coffee House</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  background: #fdfaf6;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: #3e2723;
+  color: white;
+}
+
+nav h2 {
+  color: #d7a86e;
+}
+
+/* Hero */
+.hero {
+  height: 90vh;
+  background: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93') center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 45px;
+  background: rgba(0,0,0,0.5);
+  padding: 15px;
+}
+
+/* Menu */
+.menu {
+  padding: 50px;
+  text-align: center;
+}
+
+.menu h2 {
+  margin-bottom: 20px;
+}
+
+.items {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.item {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.item h3 {
+  color: #3e2723;
+}
+
+/* Contact */
+.contact {
+  padding: 40px;
+  text-align: center;
+  background: #eee;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #6d4c41;
+  color: white;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background: #3e2723;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+  <h2>Coffee House</h2>
+  <div>Home | Menu | Contact</div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+  <h1>أفضل قهوة في المدينة ☕</h1>
+</section>
+
+<!-- Menu -->
+<section class="menu">
+  <h2>المنيو</h2>
+  <div class="items">
+    <div class="item">
+      <h3>Espresso</h3>
+      <p>قهوة قوية ومميزة</p>
+    </div>
+    <div class="item">
+      <h3>Latte</h3>
+      <p>مزيج قهوة مع حليب</p>
+    </div>
+    <div class="item">
+      <h3>Cappuccino</h3>
+      <p>قهوة برغوة كريمية</p>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="contact">
+  <h2>تواصل معنا</h2>
+  <p>اتصل بنا أو زورنا في أقرب وقت</p>
+  <button onclick="alert('تم إرسال طلبك!')">احجز الآن</button>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2026 Coffee House</p>
+</footer>
+
+</body>
+</html>
